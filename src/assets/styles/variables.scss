@@ -1,0 +1,118 @@
+// Pulse 4.1.1
+// Bootswatch
+
+// Color system
+
+$white: #fff !default;
+$gray-100: #fafafa !default;
+$gray-200: #f5f5f5 !default;
+$gray-300: #ededed !default;
+$gray-400: #c3cbd3 !default;
+$gray-500: #9ba8b6 !default;
+$gray-600: #5d6888 !default; //
+$gray-700: #38526d !default; // body color
+$gray-800: #293d51 !default;
+$gray-900: rgb(232, 224, 253) !default;
+$black: #000 !default;
+
+$blue: #007bff !default;
+$indigo: #6610f2 !default;
+$dark-indigo: #182b3e !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #d85364 !default;
+$orange: #fd7e14 !default;
+$light-orange: #f9a84a !default;
+$dark-orange: #f16f24 !default;
+$yellow: #ffc107 !default;
+$light-yellow: #fddc2f !default;
+$dark-yellow: #fbb615 !default;
+$green: #00ccb1 !default;
+$lightest-green: #67dcae;
+$light-green: #abe079 !default;
+$dark-green: #73be44 !default;
+$dark-blue: #046fb6 !default;
+$light-blue: #0aa8dc !default;
+$teal: #20c997 !default;
+$cyan: #01b49d !default;
+$cyan-light: #00e8d9;
+$cyan-plain: #42c1b8;
+$nobel: #9b9b9b;
+$cyan-blue: #698aa6;
+$dark-blue: #1d2231;
+$pale-cyan-blue: #cae5ff;
+$bluish-white: #ebefff;
+$mostly-white: #fbfbfb;
+$solitude: #eef1f6;
+$alice-blue: #f5f6f7;
+$white-shadow: #eceff5;
+
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial,
+  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+  monospace !default;
+$font-family-base: "Poppins", "Arial", "sans-serif" !default;
+
+// Options
+
+$enable-rounded: true !default;
+$enable-shadows: false !default;
+$enable-gradients: false !default;
+
+// Body
+
+$body-color: $gray-700 !default;
+
+// Fonts
+
+$font-size-base: .875rem;
+$font-size-xs: .625rem;
+$font-size-sm: .75rem;
+
+// Font weight
+
+$font-weight-light: 400;
+$font-weight-normal: 500;
+$font-weight-bold: 700;
+$font-weight-semibold: 600; // extra extra
+$font-weight-base: $font-weight-light !default;
+
+$h1-font-size: 36px;
+$h2-font-size: 28px;
+$h3-font-size: 24px;
+$h4-font-size: 18px;
+$h5-font-size: 16px;
+$h6-font-size: $font-size-base;
+
+// Custom Shadows
+
+$c-shadow-top: 0px -12px 25px -15px $gray-600;
+$c-shadow-bottom: 0px 12px 25px -15px $gray-600;
+$c-shadow-left: -12px 0px 25px -15px $gray-600;
+$c-shadow-right: 12px 0px 25px -15px $gray-600;
+
+// For media
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1180px // from design,,,,,,,,,,,,,
+) !default;
+
+// Device widths
+$mobile: "screen and (min-width: 100px) and (max-width: #{map-get($container-max-widths, 'sm')})";
+$tablet: "screen and (min-width: #{map-get($container-max-widths, 'sm')}) and (max-width: #{map-get($container-max-widths, 'md')})";
+$desktop: "screen and (min-width: #{map-get($container-max-widths, 'md')}) and (max-width: #{map-get($container-max-widths, 'lg')})";
+$full_hd_device: "screen and (min-width: #{map-get($container-max-widths, 'lg')})";
+
+// Linear Gradient
+$lgr-green: linear-gradient(to bottom right, $green, $cyan-light);
+$lgr-dark-green: linear-gradient(to bottom right, $cyan-plain, $lightest-green);
+$lgr-solitude: linear-gradient(to bottom right, $solitude, $mostly-white);
+$lgr-blue: linear-gradient(to bottom right, $pale-cyan-blue, $bluish-white);
+$lgr-blue-gray: linear-gradient(to top right, $cyan-blue, $gray-700);
+$lgr-success: linear-gradient(to bottom right, #9679e5, #6cead1);
+
+
